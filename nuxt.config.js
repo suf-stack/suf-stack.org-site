@@ -12,7 +12,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=K2D&display=swap'}
     ]
   },
   /*
@@ -23,6 +24,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    'assets/scss/buefy.scss'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -38,7 +40,17 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    ['nuxt-buefy', {
+      css: false,
+      materialDesignIcons: true
+    }],
+    ['@nuxtjs/style-resources']
   ],
+  styleResources: {
+    scss: [
+      'assets/scss/_colors.scss'
+    ]
+  },
   /*
   ** Build configuration
   */
