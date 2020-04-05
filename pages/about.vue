@@ -2,7 +2,7 @@
   <div>
     <section class="section">
       <div class="container">
-        <h1 class="title">What is SUF Stack?</h1>
+        <h1 class="title">What is the SUF Stack?</h1>
         <h2 class="subtitle">by <a href="https://bradito.me/">Brad Ito</a></h2>
         <p>
           I've been building web apps since the turn of the century, and jumped between many languages
@@ -17,7 +17,7 @@
           them to create great things.
         </p>
         
-        <h2 class="subtitle">Some History</h2>
+        <h2 class="subtitle">Some History and Context</h2>
         
         <p>
           The first websites were hand-coded HTML files hosted on individual web servers.  For creators
@@ -52,6 +52,17 @@
           adds more dynamic content to static sites, but still suffers from a lack of a backend with priviledged
           code.
         </p>
+        
+        <h2 class="subtitle">Serverless</h2>
+        
+        <p>
+          We use the
+          <a href="https://serverless.com/" rel="nofollow noopener" target="_blank">Serverless Framework</a>
+        </p>
+        
+        <h2 class="subtitle">Universal</h2>
+        <h2 class="subtitle">Full Stack</h2>
+        
       </div>
     </section>
   </div>

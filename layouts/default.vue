@@ -7,8 +7,8 @@
             </b-navbar-item>
         </template>
         <template slot="end">
-            <b-navbar-item tag="router-link" to="/what-is-suf-stack">
-                What is SUF Stack?
+            <b-navbar-item tag="router-link" to="/about">
+                About
             </b-navbar-item>
             <b-navbar-item tag="router-link" to="/get-started">
                 Get Started
@@ -16,6 +16,13 @@
         </template>
     </b-navbar>
     <nuxt />
+    <footer class="footer">
+      <div class="content">
+        <p>
+          <strong>SUF Stack</strong> by <a href="https://bradito.me/">Brad Ito</a>.
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 

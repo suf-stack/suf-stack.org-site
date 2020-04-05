@@ -15,7 +15,7 @@
               <h1 class="is-size-1-desktop is-size-3-touch has-text-weight-semibold">
                 Serverless
               </h1>
-              <h3>Deploy without worrying about servers</h3>
+              <h3 class="is-size-4">Deploy without worrying about servers</h3>
             </div>
           </section>
         </b-carousel-item>
@@ -25,7 +25,7 @@
               <h1 class="is-size-1-desktop is-size-3-touch has-text-weight-semibold">
                 Universal
               </h1>
-              <h3>Optimize rendering for users and search engines</h3>
+              <h3 class="is-size-4">Optimize rendering for users and search engines</h3>
             </div>
           </section>
         </b-carousel-item>
@@ -35,7 +35,7 @@
               <h1 class="is-size-1-desktop is-size-3-touch has-text-weight-semibold">
                 Full Stack
               </h1>
-              <h3>Develop frontend and backend together</h3>
+              <h3 class="is-size-4">Develop frontend and backend together</h3>
             </div>
           </section>
         </b-carousel-item>
@@ -43,14 +43,14 @@
     </section>
     <section class="section">
       <div class="container">
-        <h1 class="title">SUF Stack</h1>
+        <h1 class="title">Serverless + Universal + Full Stack = SUF</h1>
         <p>
           Build web applications without compromise with the
-          Serverless / Universal / Full-stack (SUF) Stack.
+          SUF Stack.
           This new architecture combines several modern technologies in a way which is both powerful and easy to use.
         </p>
         <p>
-          To get you started, we have created a few 
+          To get you started, we have created a few free and open source
           <nuxt-link to="/get-started">templates</nuxt-link>.
           Contributors are welcome!
         </p>
@@ -61,6 +61,10 @@
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
+              <b-icon
+                icon="cloud-outline"
+                size="is-large">
+              </b-icon>
               <h1 class="title">Serverless</h1>
               <div class="content">
                 <p>
@@ -74,6 +78,10 @@
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
+              <b-icon
+                icon="vector-difference"
+                size="is-large">
+              </b-icon>
               <h1 class="title">Universal</h1>
               <div class="content">
                 <p>
@@ -87,6 +95,10 @@
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
+              <b-icon
+                icon="language-javascript"
+                size="is-large">
+              </b-icon>
               <h1 class="title">Full Stack</h1>
               <div class="content">
                 <p>
@@ -101,6 +113,14 @@
         </div>
       </div>
     </section>
+    <section class="section">
+      <div class="container">
+        <p class="is-size-3 has-text-centered">
+          <nuxt-link to="/about">Read more</nuxt-link>
+          about the SUF Stack...
+        </p>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -113,17 +133,18 @@ export default {
 
 <style lang="scss">
 .home-page {
-    .item-1 {
-      color: black;
-      background-color: #74dbef;
-    }
-    .item-2 {
-      color: #eff0f4;
-      background-color: #0074e4;
-    }
-    .item-3 {
-      color: #eff0f4;
-      background-color: #264e86;
-    }
+  font-size: 1.25rem;
+  .item-1 {
+    color: black;
+    background-color: #74dbef;
+  }
+  .item-2 {
+    color: #eff0f4;
+    background-color: #0074e4;
+  }
+  .item-3 {
+    color: #eff0f4;
+    background-color: #264e86;
+  }
 }
 </style>
