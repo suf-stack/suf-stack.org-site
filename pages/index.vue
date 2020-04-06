@@ -127,7 +127,10 @@
 <script>
 
 export default {
-  title: 'Home'
+  head: {
+    title: 'SUF-Stack',
+    titleTemplate: '%s'
+  }
 }
 </script>
 

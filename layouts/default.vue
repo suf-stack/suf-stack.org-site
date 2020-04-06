@@ -1,6 +1,9 @@
 <template>
   <div class="default-layout">
-    <b-navbar>
+    <b-navbar
+      :fixed-top="true"
+      :spaced="true"
+    >
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <suf-stack-logo />
@@ -8,7 +11,7 @@
         </template>
         <template slot="end">
             <b-navbar-item tag="router-link" to="/about">
-                About
+                About SUF-Stack
             </b-navbar-item>
             <b-navbar-item tag="router-link" to="/get-started">
                 Get Started
@@ -30,6 +33,9 @@
 import SufStackLogo from '~/components/SufStackLogo.vue'
 
 export default {
+  head: {
+    titleTemplate: '%s - SUF-Stack'
+  },
   components: {
     'suf-stack-logo': SufStackLogo
   }
