@@ -35,6 +35,9 @@ module.exports = {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    ['@nuxtjs/gtm', {
+      id: 'GTM-M6XSDRD'
+    }]
   ],
   /*
   ** Nuxt.js modules

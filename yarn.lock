@@ -1047,6 +1047,11 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^4.0.0"
 
+"@nuxtjs/gtm@^2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/gtm/-/gtm-2.2.3.tgz#c5e861e9988e69c6e69e11808fcd0af27d3571fd"
+  integrity sha512-YRvxCo2rpe61kR49LmepK0lCjrrb3hvb89X7/AO5IFPzPU6hxUDpi4V3rnahUTwHcDdYknVqtjAn8ZFMp+HE2Q==
+
 "@nuxtjs/style-resources@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/style-resources/-/style-resources-1.0.0.tgz#7c4d6be19d7f7cc5d687d689f2ab16c0b94773a1"
