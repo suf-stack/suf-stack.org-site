@@ -5,8 +5,8 @@
       :spaced="true"
     >
         <template slot="brand">
-            <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                <suf-stack-logo />
+            <b-navbar-item tag="router-link" to="/">
+                SUF-Stack
             </b-navbar-item>
         </template>
         <template slot="end">
