@@ -83,7 +83,10 @@
           only a single function to keep warm.
         </p>
         
-        <b-message title="Known Limitations" :closable="false">
+        <b-message type="is-warning" has-icon>
+          <p>
+            Known Limitations:
+          </p>
           <p>
             - Web requests must not take longer than a few seconds (30 seconds for AWS).
             This is also a good practice for human-facing user experience, and you should consider
@@ -139,7 +142,10 @@
           of Nuxt.js modules which one can use.
         </p>
         
-        <b-message title="Known Limitations" :closable="false">
+        <b-message type="is-warning" has-icon>
+          <p>
+            Known Limitations:
+          </p>
           <p>
             Some UX-related packages only work in the browser, and may need to be loaded
             via the Vue <a href="https://vuejs.org/v2/api/#mounted">mounted</a> hook
@@ -191,7 +197,10 @@
           fully functional local development environment.
         </p>
         
-        <b-message title="Known Limitations" :closable="false">
+        <b-message type="is-warning" has-icon>
+          <p>
+            Known Limitations:
+          </p>
           <p>
             Not all developers or applications need a backend.  For those situations, it may not be
             necessary to use the SUF-Stack.
