@@ -13,6 +13,26 @@
         <p>
           To use it:
         </p>
+        <vue-code-highlight>
+          npm install -g yo
+          npm install -g generator-suf-stack-aws-koa-nuxt
+          mkdir *appname*
+          cd *appname*
+          yo suf-stack-aws-koa-nuxt
+        </vue-code-highlight>
+        
+        <p>
+          Note that this version uses AWS (Lambda, API Gateway, CloudFront) and is optimized to be used
+          with a custom domain, and to serve content via S3.  Before using it, make sure to setup AWS credentials
+          and to prepare an S3 bucket for your static assets.
+        </p>
+        
+        <p>
+          This yeoman generator also uses Koa.js for the backend, and Nuxt.js/Vue.js for the frontend.  For more
+          details, read the <a href="https://www.npmjs.com/package/generator-suf-stack-aws-koa-nuxt">documentation</a>.
+        </p>
+        
+        <hr />
         
         <h2 class="subtitle">create-app scaffolder</h2>
         
@@ -26,9 +46,14 @@
 </template>
 
 <script>
+import { component as VueCodeHighlight } from 'vue-code-highlight'
+
 export default {
   head: {
     title: 'Get Started'
+  },
+  components:{
+  VueCodeHighlight,
   }
 }
 </script>
