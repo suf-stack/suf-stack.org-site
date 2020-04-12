@@ -137,6 +137,7 @@ export default {
 <style lang="scss">
 .home-page {
   font-size: 1.25rem;
+  
   .item-1 {
     color: black;
     background-color: #74dbef;
