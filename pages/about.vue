@@ -5,11 +5,15 @@
         <h1 class="title">What is the SUF Stack?</h1>
         <h2 class="subtitle">by <a href="https://bradito.me/">Brad Ito</a></h2>
         <p>
-          I've been building web apps since the turn of the century, and jumped between many languages
-          and frameworks over time - never quite happy with the trade-offs between users, creators, and
-          deployment infrastructure.  I came up with this architecture about two years ago and have
-          used it to build several production webapps, finding that the mix of technologies are now
-          complementing each other without a need for trade-offs.
+          I've been building web apps for a while, and was
+          never quite happy with the trade-offs involved in the choice of architecture.
+          Frameworks and architectures would only really optimize for one of: users, developers, or
+          infrastructure, and compromise on the others.
+        </p>
+        <p>
+          Now, there's a combination of technologies that when combined into a single architecture
+          combine to combine to avoid many of those trade-offs.  I've been using this
+          in production for a few years now, and would like to share it with others.
         </p>
         
         <p>
@@ -17,41 +21,17 @@
           them to create great things.
         </p>
         
-        <h2 class="subtitle">Some History and Context</h2>
+        <h3 class="subtitle">
+          A SUF-Stack app is:
+        </h3>
+        <div class="content">
+          <ul>
+            <li>Serverless - optimized for the cloud</li>
+            <li>Universal - optimized for the user</li>
+            <li>Full-Stack - optimized for the developer</li>
+          </ul>
+        </div>
         
-        <p>
-          The first websites were hand-coded HTML files hosted on individual web servers.  For creators
-          of those sites, it often meant lots of markup repetition and other inefficiencies.  For users
-          of such sites, the content would tend to get stale and lose relevance.  For the system administrators
-          in charge of the infrastructure, there would be a worry about keeping the sites online, especially
-          when there would be a surge in users for a popular site.
-        </p>
-        
-        <p>
-          Next came the first generation of web applications.  These provided dyamic content via server-side
-          code, and unlocked the web as a vehicle for eCommerce, search engines, and more.  Users were
-          delighted by the new functionality, and would tolerate the sometimes slow loading times.  Creators
-          were empowered by their new capabilities and eagerly dove into a raft of new languages and frameworks.
-          However the infrastructure demands became complex and error-prone.
-        </p>
-        
-        <p>
-          Single-page apps emerged next, offering much richer experiences for users by leveraging
-          browser capabilities to react quickly to user inputs, and unlock emerging web standards.
-          However, for creators this created the need for different languages and technologies for the
-          frontend and backend, resulting in diverging skills and split teams.  Infrastructure needs,
-          which had only started to simplify via public cloud providers, became complex balances
-          between versioned deployments of the frontend and backend, and the unique scaling needs of each.
-        </p>
-        
-        <p>
-          The next set of web application architectures solve specific weaknesses.  Universal apps
-          which render content both on the server and in the browser aid in search discoverability and speed
-          but suffer from complex deployments.  Static site generators sacrifice dynamic backends to
-          optimize for distributed and cached infrastructure, and fast page speeds for the user.  The Jamstack
-          adds more dynamic content to static sites, but still suffers from a lack of a backend with priviledged
-          code.
-        </p>
         
         <h2 class="subtitle">Serverless</h2>
         
@@ -204,6 +184,44 @@
         <p>
           If the SUF-stack sounds like what you need, then you can
           <nuxt-link to="/get-started">get started</nuxt-link> today!
+        </p>
+        
+        <hr />
+        
+        <h2 class="subtitle">Some History and Context</h2>
+        
+        <p>
+          The first websites were hand-coded HTML files hosted on individual web servers.  For creators
+          of those sites, it often meant lots of markup repetition and other inefficiencies.  For users
+          of such sites, the content would tend to get stale and lose relevance.  For the system administrators
+          in charge of the infrastructure, there would be a worry about keeping the sites online, especially
+          when there would be a surge in users for a popular site.
+        </p>
+        
+        <p>
+          Next came the first generation of web applications.  These provided dyamic content via server-side
+          code, and unlocked the web as a vehicle for eCommerce, search engines, and more.  Users were
+          delighted by the new functionality, and would tolerate the sometimes slow loading times.  Creators
+          were empowered by their new capabilities and eagerly dove into a raft of new languages and frameworks.
+          However the infrastructure demands became complex and error-prone.
+        </p>
+        
+        <p>
+          Single-page apps emerged next, offering much richer experiences for users by leveraging
+          browser capabilities to react quickly to user inputs, and unlock emerging web standards.
+          However, for creators this created the need for different languages and technologies for the
+          frontend and backend, resulting in diverging skills and split teams.  Infrastructure needs,
+          which had only started to simplify via public cloud providers, became complex balances
+          between versioned deployments of the frontend and backend, and the unique scaling needs of each.
+        </p>
+        
+        <p>
+          The next set of web application architectures solve specific weaknesses.  Universal apps
+          which render content both on the server and in the browser aid in search discoverability and speed
+          but suffer from complex deployments.  Static site generators sacrifice dynamic backends to
+          optimize for distributed and cached infrastructure, and fast page speeds for the user.  The Jamstack
+          adds more dynamic content to static sites, but still suffers from a lack of a backend with priviledged
+          code.
         </p>
       </div>
     </section>
