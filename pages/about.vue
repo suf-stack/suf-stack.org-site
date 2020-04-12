@@ -36,7 +36,7 @@
               - optimized for the user
             </li>
             <li>
-              <a href="#" v-scroll-to="'#section-fullstack'">Full-Stack</a>
+              <a href="#" v-scroll-to="'#section-fullstack'">Full Stack</a>
               - optimized for the developer
             </li>
           </ul>
@@ -259,7 +259,14 @@
 <script>
 export default {
   head: {
-    title: 'About'
+    title: 'About',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'SUF-Stack - Serverless, Universal, Full Stack - About the architecture'
+      }
+    ],
   }
 }
 </script>

@@ -141,7 +141,14 @@
 export default {
   head: {
     title: 'SUF-Stack',
-    titleTemplate: '%s'
+    titleTemplate: '%s',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'SUF-Stack - Modern web app architecture. Serverless, Universal, Full Stack'
+      }
+    ],
   }
 }
 </script>

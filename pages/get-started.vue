@@ -50,7 +50,14 @@ import { component as VueCodeHighlight } from 'vue-code-highlight'
 
 export default {
   head: {
-    title: 'Get Started'
+    title: 'Get Started',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'SUF-Stack - Serverless, Universal, Full Stack - Get Started'
+      }
+    ],
   },
   components:{
   VueCodeHighlight,
