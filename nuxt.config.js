@@ -47,6 +47,10 @@ module.exports = {
       css: false,
       materialDesignIcons: true
     }],
+    ['vue-scrollto/nuxt', {
+      duration: 300,
+      offset: -100
+    }],
     ['@nuxtjs/style-resources']
   ],
   styleResources: {

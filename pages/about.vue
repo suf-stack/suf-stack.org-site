@@ -13,7 +13,8 @@
         <p>
           Now, there's a combination of technologies that when combined into a single architecture
           combine to combine to avoid many of those trade-offs.  I've been using this
-          in production for a few years now, and would like to share it with others.
+          in production for a few years now, and have found it effective in quickly building
+          performant, scalable web apps.
         </p>
         
         <p>
@@ -26,14 +27,26 @@
         </h3>
         <div class="content">
           <ul>
-            <li>Serverless - optimized for the cloud</li>
-            <li>Universal - optimized for the user</li>
-            <li>Full-Stack - optimized for the developer</li>
+            <li>
+              <a href="#" v-scroll-to="'#section-serverless'">Serverless</a>
+              - optimized for the cloud
+            </li>
+            <li>
+              <a href="#" v-scroll-to="'#section-universal'">Universal</a>
+              - optimized for the user
+            </li>
+            <li>
+              <a href="#" v-scroll-to="'#section-fullstack'">Full-Stack</a>
+              - optimized for the developer
+            </li>
           </ul>
         </div>
         
         
-        <h2 class="subtitle">Serverless</h2>
+        <h2 class="subtitle" id="section-serverless">
+          <b-icon icon="cloud-outline"></b-icon>
+          Serverless
+        </h2>
         
         <p>
           A SUF-Stack App should be optimized for its deployment on the cloud.  This means optimizing
@@ -89,7 +102,10 @@
           </p>
         </b-message>
         
-        <h2 class="subtitle">Universal</h2>
+        <h2 class="subtitle" id="section-universal">
+          <b-icon icon="vector-difference"></b-icon>
+          Universal
+        </h2>
         
         <p>
           A SUF-Stack app should be optimized for its users.  This means being a universal application
@@ -141,7 +157,10 @@
           </p>
         </b-message>
         
-        <h2 class="subtitle">Full Stack</h2>
+        <h2 class="subtitle" id="section-fullstack">
+          <b-icon icon="language-javascript"></b-icon>
+          Full Stack
+        </h2>
         
         <p>
           A SUF-Stack app should be optimized for developers.  That is, it should minimize the

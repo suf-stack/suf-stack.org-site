@@ -65,13 +65,17 @@
                 icon="cloud-outline"
                 size="is-large">
               </b-icon>
-              <h1 class="title">Serverless</h1>
+              <h1 class="title">
+                <nuxt-link to="/about">
+                  Serverless
+                </nuxt-link>
+              </h1>
               <div class="content">
                 <p>
-                  Deploy your app without worrying about maintaining or scaling servers.
+                  Optimize for the cloud.
                 </p>
                 <p>
-                  Pay only for the actual usage of your app.
+                  Deploy your app without worrying about maintaining or scaling servers.
                 </p>
               </div>
             </article>
@@ -82,13 +86,17 @@
                 icon="vector-difference"
                 size="is-large">
               </b-icon>
-              <h1 class="title">Universal</h1>
+              <h1 class="title">
+                <nuxt-link to="/about">
+                  Universal
+                </nuxt-link>
+              </h1>
               <div class="content">
                 <p>
-                  Give users the fastest possible page renders
+                  Optimize for users.
                 </p>
                 <p>
-                  Ensure your content is optimized for the semantic web (and SEO)
+                  Ensure your content is optimized for speed and the semantic web (and SEO)
                 </p>
               </div>
             </article>
@@ -99,13 +107,17 @@
                 icon="language-javascript"
                 size="is-large">
               </b-icon>
-              <h1 class="title">Full Stack</h1>
+              <h1 class="title">
+                <nuxt-link to="/about">
+                  Full Stack
+                </nuxt-link>
+              </h1>
               <div class="content">
                 <p>
-                  Use a "real" frontend and backend, written and deployed together seamlessly
+                  Optimize for developers.
                 </p>
                 <p>
-                  Organize teams around features, not technical limitations
+                  Use a "real" frontend and backend, written and deployed together seamlessly
                 </p>
               </div>
             </article>
