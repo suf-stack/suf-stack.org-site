@@ -6,10 +6,7 @@
     >
         <template slot="brand">
             <b-navbar-item tag="router-link" to="/">
-                <img
-                  alt="SUF"
-                  src="https://res.cloudinary.com/dn7sohze7/image/upload/c_scale,f_auto,q_auto,w_52/v1586668370/suf-stack/favicon.svg"
-                >
+                SUF Stack
             </b-navbar-item>
         </template>
         <template slot="end">
