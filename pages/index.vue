@@ -115,6 +115,11 @@
           <p>
             * not all technologies yet implemented in templates.
           </p>
+          <p>
+            Also:
+            <a href="https://serverless.com/framework/docs/">Serverless Framework</a>,
+            <a href="https://webpack.js.org/">Webpack.js</a>
+          </p>
         </div>
       </div>
     </section>
