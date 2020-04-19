@@ -46,7 +46,7 @@
         <h1 class="title">Serverless + Universal + Full Stack = SUF</h1>
         <p>
           The SUF-Stack provides an opinionated way to build web apps without compromise.
-          It's a new architecture (not a framework)
+          It's a new <em>architecture</em> (not a framework)
           which combines several modern technologies in a way which is both powerful and easy to use.
         </p>
         <p>
@@ -54,6 +54,68 @@
           <nuxt-link to="/get-started">templates</nuxt-link>.
           Contributors are welcome!
         </p>
+        
+        <hr />
+        
+        <h3 class="subtitle">
+          Technologies:
+        </h3>
+        <div class="content">
+          <table>
+            <thead>
+              <tr>
+                <th>Cloud Provider</th>
+                <th>Frontend</th>
+                <th>Backend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="nowrap">
+                  <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>
+                  <b-icon title="implemented" icon="checkbox-marked-circle-outline"></b-icon>
+                </td>
+                <td class="nowrap">
+                  <a href="https://nuxtjs.org/">Nuxt.js</a> /
+                  <a href="https://vuejs.org/">Vue.js</a>
+                  <b-icon title="implemented" icon="checkbox-marked-circle-outline"></b-icon>
+                </td>
+                <td class="nowrap">
+                  <a href="https://koajs.com/">Koa.js</a>
+                  <b-icon title="implemented" icon="checkbox-marked-circle-outline"></b-icon>
+                </td>
+              </tr>
+              <tr>
+                <td class="nowrap">
+                  <a href="https://azure.microsoft.com/en-us/services/functions/">Azure Functions</a>
+                </td>
+                <td class="nowrap">
+                  <a href="https://nextjs.org/" rel="nofollow">Next.js</a> /
+                  <a href="https://reactjs.org/" rel="nofollow">React.js</a>
+                </td>
+                <td class="nowrap">
+                  <a href="https://expressjs.com/">Express.js</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://serverless.com/framework/docs/providers/">
+                    see Serverless Framework providers
+                  </a>
+                </td>
+                <td>
+                  Other?
+                </td>
+                <td>
+                  Fastify, Feathers, Hapi, etc
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            * not all technologies yet implemented in templates.
+          </p>
+        </div>
       </div>
     </section>
     <section class="section has-background-info">
