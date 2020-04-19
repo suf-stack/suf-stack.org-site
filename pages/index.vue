@@ -45,7 +45,7 @@
       <div class="container">
         <h1 class="title">Serverless + Universal + Full Stack = SUF</h1>
         <p>
-          The SUF-Stack provides an opinionated way to build web apps without compromise.
+          The SUF-Stack is an opinionated way to build web apps without compromise.
           It's a new <em>architecture</em> (not a framework)
           which combines several modern technologies in a way which is both powerful and easy to use.
         </p>
