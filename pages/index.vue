@@ -7,7 +7,7 @@
         :pause-hover="true"
         :pause-info="false"
         :repeat="true"
-        :interval="2300"
+        :interval="5000"
       >
         <b-carousel-item>
           <section class="hero is-medium">
