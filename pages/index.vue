@@ -58,7 +58,7 @@
         <hr />
         
         <h3 class="subtitle">
-          Technologies:
+          Technology Choices:
         </h3>
         <div class="content">
           <table>
