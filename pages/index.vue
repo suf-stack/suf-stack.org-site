@@ -72,34 +72,34 @@
             <tbody>
               <tr>
                 <td class="nowrap">
-                  <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>
+                  <a href="https://aws.amazon.com/lambda/" target="_blank">AWS Lambda</a>
                   <b-icon title="implemented" icon="checkbox-marked-circle-outline"></b-icon>
                 </td>
                 <td class="nowrap">
-                  <a href="https://nuxtjs.org/">Nuxt.js</a> /
-                  <a href="https://vuejs.org/">Vue.js</a>
+                  <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> /
+                  <a href="https://vuejs.org/" target="_blank">Vue.js</a>
                   <b-icon title="implemented" icon="checkbox-marked-circle-outline"></b-icon>
                 </td>
                 <td class="nowrap">
-                  <a href="https://koajs.com/">Koa.js</a>
+                  <a href="https://koajs.com/" target="_blank">Koa.js</a>
                   <b-icon title="implemented" icon="checkbox-marked-circle-outline"></b-icon>
                 </td>
               </tr>
               <tr>
                 <td class="nowrap">
-                  <a href="https://azure.microsoft.com/en-us/services/functions/">Azure Functions</a>
+                  <a href="https://azure.microsoft.com/en-us/services/functions/" target="_blank">Azure Functions</a>
                 </td>
                 <td class="nowrap">
-                  <a href="https://nextjs.org/" rel="nofollow">Next.js</a> /
-                  <a href="https://reactjs.org/" rel="nofollow">React.js</a>
+                  <a href="https://nextjs.org/" target="_blank" rel="nofollow">Next.js</a> /
+                  <a href="https://reactjs.org/" target="_blank" rel="nofollow">React.js</a>
                 </td>
                 <td class="nowrap">
-                  <a href="https://expressjs.com/">Express.js</a>
+                  <a href="https://expressjs.com/" target="_blank">Express.js</a>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a href="https://serverless.com/framework/docs/providers/">
+                  <a href="https://serverless.com/framework/docs/providers/" target="_blank">
                     see Serverless Framework providers
                   </a>
                 </td>
@@ -116,9 +116,9 @@
             * not all technologies yet implemented in templates.
           </p>
           <p>
-            Also:
-            <a href="https://serverless.com/framework/docs/">Serverless Framework</a>,
-            <a href="https://webpack.js.org/">Webpack.js</a>
+            Also built upon:
+            <a href="https://serverless.com/framework/docs/" target="_blank">Serverless Framework</a>,
+            <a href="https://webpack.js.org/" target="_blank">Webpack.js</a>
           </p>
         </div>
       </div>
