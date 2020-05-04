@@ -10,10 +10,10 @@
             </b-navbar-item>
         </template>
         <template slot="end">
-            <b-navbar-item tag="router-link" to="/about">
+            <b-navbar-item tag="router-link" to="/about/">
                 About SUF-Stack
             </b-navbar-item>
-            <b-navbar-item tag="router-link" to="/get-started">
+            <b-navbar-item tag="router-link" to="/get-started/">
                 Get Started
             </b-navbar-item>
         </template>

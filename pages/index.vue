@@ -51,7 +51,7 @@
         </p>
         <p>
           To get you started, we have created a few free and open source
-          <nuxt-link to="/get-started">templates</nuxt-link>.
+          <nuxt-link to="/get-started/">templates</nuxt-link>.
           Contributors are welcome!
         </p>
         
@@ -133,7 +133,7 @@
                 size="is-large">
               </b-icon>
               <h1 class="title">
-                <nuxt-link to="/about">
+                <nuxt-link to="/about/">
                   Serverless
                 </nuxt-link>
               </h1>
@@ -154,7 +154,7 @@
                 size="is-large">
               </b-icon>
               <h1 class="title">
-                <nuxt-link to="/about">
+                <nuxt-link to="/about/">
                   Universal
                 </nuxt-link>
               </h1>
@@ -175,7 +175,7 @@
                 size="is-large">
               </b-icon>
               <h1 class="title">
-                <nuxt-link to="/about">
+                <nuxt-link to="/about/">
                   Full Stack
                 </nuxt-link>
               </h1>
@@ -195,7 +195,7 @@
     <section class="section">
       <div class="container">
         <p class="is-size-3 has-text-centered">
-          <nuxt-link to="/about">Read more</nuxt-link>
+          <nuxt-link to="/about/">Read more</nuxt-link>
           about the SUF Stack...
         </p>
       </div>
