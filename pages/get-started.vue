@@ -13,13 +13,15 @@
         <p>
           To use it:
         </p>
-        <vue-code-highlight>
-          npm install -g yo
-          npm install -g generator-suf-stack-aws-koa-nuxt
-          mkdir *appname*
-          cd *appname*
-          yo suf-stack-aws-koa-nuxt
-        </vue-code-highlight>
+        <client-only>
+          <vue-code-highlight>
+            npm install -g yo
+            npm install -g generator-suf-stack-aws-koa-nuxt
+            mkdir *appname*
+            cd *appname*
+            yo suf-stack-aws-koa-nuxt
+          </vue-code-highlight>
+        </client-only>
         
         <p>
           Note that this version uses AWS (Lambda, API Gateway, CloudFront) and is optimized to be used
