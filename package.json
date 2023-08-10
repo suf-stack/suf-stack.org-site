@@ -8,8 +8,8 @@
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
-    "generate": "rm -rf dist public && nuxt generate",
-    "deploy": "npm run generate && mv dist public"
+    "generate": "rm -rf dist docs && nuxt generate",
+    "deploy": "npm run generate && mv dist docs"
   },
   "dependencies": {
     "@nuxtjs/gtm": "^2.4.0",
